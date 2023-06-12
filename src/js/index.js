@@ -5,8 +5,19 @@ import ReactDOM from "react-dom";
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
-//import your own components
-import Home from "./component/home.jsx";
+function SimpleCounter(props){
+    return (
+        <div className='bigCounter'>
+            <div className="calendar">
+                <i class="fa-solid fa-stopwatch"></i>
+            </div>
+            <div className="seconds"></div>
+            <div className="seconds"></div>
+            <div className="seconds"></div>
+            <div className="seconds"></div>
+        </div>
+    );
+};
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<SimpleCounter />, document.querySelector("#app"));
