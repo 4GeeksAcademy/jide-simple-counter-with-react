@@ -9,12 +9,12 @@ function SimpleCounter(props){
     return (
         <div className='bigCounter'>
             <div className="calendar">
-                <i class="fa-solid fa-stopwatch"></i>
+                <i class="fa-regular fa-clock"></i>
             </div>
-            <div className="four"></div>
-            <div className="three"></div>
-            <div className="two"></div>
-            <div className="one"></div>
+            <div className="four">0</div>
+            <div className="three">0</div>
+            <div className="two">0</div>
+            <div className="one">0</div>
         </div>
     );
 };
