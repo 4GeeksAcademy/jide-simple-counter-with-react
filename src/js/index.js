@@ -11,10 +11,10 @@ function SimpleCounter(props){
             <div className="calendar">
                 <i class="fa-solid fa-stopwatch"></i>
             </div>
-            <div className="seconds"></div>
-            <div className="seconds"></div>
-            <div className="seconds"></div>
-            <div className="seconds"></div>
+            <div className="four"></div>
+            <div className="three"></div>
+            <div className="two"></div>
+            <div className="one"></div>
         </div>
     );
 };
