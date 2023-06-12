@@ -1,6 +1,7 @@
 //import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
+import PropTypes from "prop-types";
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
@@ -17,6 +18,13 @@ function SimpleCounter(props){
             <div className="one">{props.digitOne}</div>
         </div>
     );
+};
+
+SimpleCounter.propTypes = {
+    digitFour: PropTypes.number,
+    digitThree: PropTypes.number,
+    digitTwo: PropTypes.number,
+    digitOne: PropTypes.number
 };
 
 let counter = 0;
