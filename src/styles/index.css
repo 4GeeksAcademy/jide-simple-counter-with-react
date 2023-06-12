@@ -6,16 +6,16 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .bigCounter div{
     display: inline-block;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 120px;
+    line-height: 102px;
     background: #101010;
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin: 3px;
 }
 /* 
