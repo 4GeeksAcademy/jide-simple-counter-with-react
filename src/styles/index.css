@@ -1,4 +1,11 @@
-
+.bigCounter div{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    background: #101010;
+    color: white;
+    padding: 10px;
+}
 /* 
 
     You can write your own styles here...
